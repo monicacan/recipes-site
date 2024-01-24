@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--Monica Can 12/11/2023-->
+
+<html lang="en">
+    <head>
+        <title>Recpies - Monica Can</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css"> <!--external-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Miniver&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <style>
+        </style>
+    </head>
+   
+    <body> 
+        <div id="wrapper">
+            <h1> Recipes for a lazy 20 something girly </h1>
+            <h2> Not your typical lengthy recipe blog </h2>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li> 
+                    <li><a href="final2.html"> Recipes </a></li> 
+                    <li><a href="final3.html"> Contact </a></li>
+                    <li><a href="final4.html"> Credits </a></li> 
+                </ul> 
+            </nav>           
+            
+            <main>
+                <h3>Contact form</h3>
+                <p>Questions about the recipe or simply want to chat? Let me know below!</p>
+
+                <form name="contact-form" method="post" id="contact-form" action="demo.php">
+                    <label for="Name"> *Name: </label>
+                    <input type="text" name="Name" id="Name" required="required">           
+                    
+                    <label for="Email"> *Email address: </label>
+                    <input type="text" name="Email" id="Email" required="required">
+                
+                    <label for="message"> Message: </label>
+                    <textarea name="message" id="message" rows="8" cols="20">Enter your message...</textarea>
+                    
+                    <label for="favoriteRecipe"> Your favorite recipe? (select one from the list): </label>
+                    <select size="4" name="favoriteRecipe" id="favoriteRecipe" multiple>
+                        <option value="Option1">Pork chops</option>
+                        <option value="Option2">Hainanese chicken</option>
+                        <option value="Option3">Korean ground beef</option>
+                        <option value="Option4">Miso salmon</option>
+                    </select>
+
+                    <label>How did you hear about this site?</label>
+                    <div id="options-1">
+                        <label><input type="checkbox" name="Option1" id="Option1" value="yes">Social Media</label><br>
+                        <label><input type="checkbox" name="Option2" id="Option2" value="yes">Email Newsletter</label><br>
+                        <label><input type="checkbox" name="Option3" id="Option3" value="yes">Word-of-mouth</label><br>
+                    </div>
+                    
+                    <label>What is your ethnicity?</label>
+                    <div id="options-2">
+                        <label><input type="radio" name="Option4" id="Option4" value="Option 4">White</label><br>
+                        <label><input type="radio" name="Option5" id="Option5" value="Option 5">Hispanic or Latino</label><br>
+                        <label><input type="radio" name="Option6" id="Option6" value="Option 6">Black or African American</label><br>
+                        <label><input type="radio" name="Option7" id="Option7" value="Option 7">Native American or American Indian</label><br>
+                        <label><input type="radio" name="Option8" id="Option8" value="Option 8">Asian / Pacific Islander</label><br>
+                        <label><input type="radio" name="Option9" id="Option9" value="Option 9">Other</label><br>
+                    </div>
+
+                    <label for="birthday">When is your birthday?</label>
+                    <input type="date" id="birthday" name="birthday">
+                    
+                    <div id="form-buttons">
+                        <input type="submit" name="submit" id="submit" value="Send Message">
+                        <input type="reset" value="Clear form"> 
+                    </div> 
+                </form>
+
+                <br><br>
+
+                <img src="media/illustration.jpg" alt="An illustration of the kitchen" height=100% width=100%>
+            </main> 
+
+            <hr>
+        
+            <footer id="footer">
+                Copyright &copy; 2023 Monica Can
+                <br>
+                <a href="mailto:ncan1@stumail.jccc.edu"> Email Monica Can </a>  
+            </footer>
+        </div>
+    </body>
+</html>
